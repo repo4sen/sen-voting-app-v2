@@ -16,7 +16,7 @@ spec:
       labels:
         name: voting-app-pod
         app: demo-voting-app
-     spec:
+    spec:
       containers:
         - name: voting-app
           image: dockersamples/examplevotingapp_vote
